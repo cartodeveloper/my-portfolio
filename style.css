@@ -40,7 +40,7 @@ body{
 }
 
 section {
-  padding: auto;
+  padding: 0%;
 }
 
 .btn{
@@ -55,7 +55,7 @@ section {
 
 /* main style (intro-section) that I reused for both sections*/
 .intro-section {
-  margin: 80 auto 0 auto;
+  margin: 80px auto 0 auto;
   text-align: center;
 }
 
