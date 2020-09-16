@@ -1,0 +1,151 @@
+/* CSS Style */
+
+body{
+  margin:0;
+  pading: 0;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium' ;
+  background-color: black;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+/* Banner Style for my header section*/
+.banner{
+  position: relative;
+  min-height: 100vmin;
+  background: url(images/header/mariator.png);
+  background-size: cover;
+  background-position: rigth;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Using nesting selectors*/
+.banner, h1{
+  font-size: 30px;
+  color:black;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.banner h1 span{
+  font-size: 70px;
+  float: left;
+}
+.banner h2 {
+  font-size: 30px;
+  color:black;
+}
+
+section {
+  padding: 100px;
+}
+
+.btn{
+  position: relative;
+  color: black;
+  display: inline-block;
+  padding: 5px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+
+/* main style (intro-section) that I reused for both sections*/
+.intro-section {
+  margin: 80px, auto, 0, auto;
+  text-align: center;
+}
+
+.intro-section, h2 {
+  color: pink;
+  font-size: 30px;
+}
+
+/* Horizontal Line Style*/
+
+hr {
+  width: 50px;
+}
+
+/* main style (grid) that I reused for both sections*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3em;
+  margin: 0, 2px, 0, 2px;
+}
+
+
+ /* Text Style*/
+
+ h3{
+  color: white;
+  text-align: center;
+  font-size: 26px;
+  
+}
+
+h4{
+  color: pink;
+  font-family: "Rustico";
+  font-size: 33px;
+  text-align: center;
+}
+
+p{
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  margin-inline-start: 3px, 3px;
+  text-align: center;
+}
+
+/* Unordered List Style*/
+ul{
+  color:white;
+  font-size: 15px;
+  font-family: "Arial";
+  margin-inline-start: 3px;
+}
+
+.images{
+  max-width: 100%;
+}
+
+/* ----- Contact Section ----- */
+
+.contact-section{
+  background-color: pink;
+  padding: 80px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  align-items: center;
+}
+.contact-section h2{
+  color: black;
+
+}
+/* ----- My blackBox inside content-section ----- */
+
+.box {
+  background-color: #000;
+  text-align: center;
+  font-size: 50px;
+  padding: 50px;
+  border-radius: 50px;
+}
+/* ----- Simple Footer ----- */
+footer {
+ text-align: center;
+}
+
+/* Link Colors */
+a:link    { color: salmon;}
+a:visited { color: salmon; }
+a:hover   { color: #693A19; }
+a:active  { color: pink; }
