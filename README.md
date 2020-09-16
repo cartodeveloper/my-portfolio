@@ -4,7 +4,7 @@ my first website!
 ---
 ## Layout
 * Header -> Hero Image 
-* Main -> Welcome to my world -> A few more words -> Contact Me
+* Main -> Welcome to my world -> fromZeroToHero -> Contact Me
 * Footer -> Copyrigth and my brand
 
 ## Gratitude
